@@ -1,0 +1,38 @@
+@media screen and (min-width: 1024px) {
+    .contenedor-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .grid-container-tienda {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .contenedor-img-personalizadas {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+        gap: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .contenido-faqs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contenido-contacto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

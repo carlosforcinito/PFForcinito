@@ -1,0 +1,128 @@
+@import "../utilidades/variables";
+
+
+
+header {
+            display: block;
+            align-items: center;
+            background-color: white;
+
+            img {
+                height: 15rem;
+                display: flex;
+                max-width: 100%;
+                object-fit: cover;
+                }
+
+            nav {
+                background-color: white;
+                div{
+                    .container-fluid {
+                        max-width: 100%;
+                        object-fit: cover;
+                    }
+                }
+                }
+        }
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+}
+
+.contenedor-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-home {
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+
+.carousel-indicators {
+display: none;
+background-color: rgb (0, 0, 0, 0);
+}
+
+.nuestras-tablas {
+    margin-top: 2rem;
+}
+
+// Estilos comunes
+
+h2 {
+    color: brown;
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    color: brown;
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-family: cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+}
+
+h4 {
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.nav-align {
+    justify-content: end;
+}
+
+.fuente-navbar {
+    color: brown;
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.footer-img-1 {
+    width: 3em;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.nav-link:hover {
+    background-color: brown;
+    border-radius: 6px;
+}
+
+.nav-link {
+    color: black;
+}
